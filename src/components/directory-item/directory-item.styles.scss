@@ -1,4 +1,4 @@
-.menu-item {
+.directory-item-container {
     min-width: 30%;
     height: 240px;
     flex: 1 1 auto;
@@ -17,7 +17,7 @@
           transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       }
 
-      & .content{
+      & .directory-item-body-container{
           opacity: 0.9;
       }
     }
@@ -44,7 +44,7 @@
 
     }
 
-    .content {
+    .directory-item-body-container {
       height: 90px;
       padding: 0 25px;
       display: flex;
@@ -56,14 +56,14 @@
       opacity: 0.7;
       position: absolute;
   
-      .title {
+      .h2 {
         font-weight: bold;
         margin-bottom: 6px;
         font-size: 22px;
         color: #4a4a4a;
       }
   
-      .subtitle {
+      .p {
         font-weight: lighter;
         font-size: 16px;
       }
