@@ -6,12 +6,18 @@ export const CategoryPreviewContainer = styled.div`
     flex-direction: column;
     margin-bottom: 30px; 
 
+    @media screen and (max-width: 800px){
+      align-items: center;
+    }
+
 `;
 
 export const Title = styled(Link)`
 font-size: 28px;
 margin-bottom: 25px;
 cursor: pointer;
+
+
 `;
 
 export const Preview = styled.div`
@@ -19,4 +25,8 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 column-gap: 20px;
 
+
+@media screen and (max-width: 800px){
+  column-gap: 2px;
+}
 `;

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const DirectoryItemContainer = styled.div`
+height: ${({size})=>(size ? '380px': '240px')};
 min-width: 30%;
-height: 240px;
 flex: 1 1 auto;
 display: flex;
 align-items: center;
@@ -22,6 +22,11 @@ margin-right: 7.5px;
 
 &:last-child {
 margin-left: 7.5px;
+}
+
+@media screen and (max-width: 800px){
+  height: 200px;
+  width: 100%;
 }
 
 `;
@@ -44,6 +49,7 @@ background-size: cover;
 
 export const DirectoryItemBodyContainer = styled.div`
 height: 90px;
+line-height: 8px;
 padding: 0 25px;
 display: flex;
 flex-direction: column;

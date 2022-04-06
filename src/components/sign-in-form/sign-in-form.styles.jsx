@@ -9,11 +9,24 @@ width: 380px;
        margin: 10px 0;
    }
 
+@media screen and (max-width: 800px){
+    width: 300px;
+}
+
 `;
 
 export const ButtonsContainer = styled.div`
 display: flex;
 justify-content: space-between;
+
+@media screen and (max-width: 800px){
+    button{
+        font-size: 12px;
+        letter-spacing: 0.2px;
+    }
+}
+
+
 `;
 
       

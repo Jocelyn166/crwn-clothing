@@ -9,6 +9,11 @@ padding: 15px 0;
 font-size: 20px;
 align-items: center;
 
+
+@media screen and (max-width: 800px){
+  font-size: 15px;
+}
+
 `;
 
 export const ImageContainer = styled.div`
@@ -42,5 +47,9 @@ margin: 0 10px;
 export const RemoveButton = styled.div`
    padding-left: 12px;
    cursor: pointer;
+
+   @media screen and (max-width: 800px){
+     padding-left: 0;
+   }
 `;
 

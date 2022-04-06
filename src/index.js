@@ -6,7 +6,6 @@ import App from './App';
 import { CategoriesProvider } from './contexts/categories.contexts';
 import { UserProvider } from './contexts/user.contexts';
 import { CartProvider } from './contexts/cart.contexts';
-import './index.scss';
 
 ReactDOM.render(
   

@@ -14,14 +14,18 @@ export const CartDropdownContainer = styled.div`
     right: 40px;
     z-index: 5;
 
+    @media screen and (max-width: 800px){
+      width: 280px;
+      
+    }
 
 ${BaseButton},
 ${GoogleSignInButton},
 ${InvertedButton}{
   margin-top: auto;
-  font-size:80%;
+  font-size: 80%;
   &:hover{
-    font-size:70%;
+    font-size: 70%;
   }
 
 }
