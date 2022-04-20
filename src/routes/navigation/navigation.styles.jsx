@@ -9,7 +9,6 @@ justify-content: space-between;
 margin-bottom: 25px;
 
 @media screen and (max-width: 800px){
-  width: 80%;
   height: 60px;
   padding: 10px;
   margin-bottom: 15px;

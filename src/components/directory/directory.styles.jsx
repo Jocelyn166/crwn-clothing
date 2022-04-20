@@ -8,7 +8,6 @@ export const DirectoryContainer = styled.div`
 
 
     @media screen and (max-width: 800px){
-      width: 85%;
       
     }
 `;

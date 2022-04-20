@@ -7,9 +7,9 @@ export const AuthenticationContainer = styled.div`
     justify-content: space-between;
 
     @media screen and (max-width: 800px){
-     width: 380px;
+     width: 50%;
      display: grid;
-     grid-template-columns: 1fr;
+     justify-content: center;
      row-gap: 50px;
  }
 `;
