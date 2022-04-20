@@ -5,4 +5,4 @@ From the cart drop-down menu, the users will be able to access the checkout page
 Beyond that, the application was also integrated with Firebase to handle the authentication and storage. With Firebase, we're able to authorize our users using signInWithPopup and signInWithEmailAndPassword.So the users can either sign in with Google accounts or use email and password to sign up first and then sign in.
 And once the user signed in, an sign out feature was also provided. Last but not least thing I want to mention is that all the products’ details are stored in the Firestore Database and pulled into the application when used.
 
-
+You can view the final website on https://dulcet-kulfi-8b29ea.netlify.app/
