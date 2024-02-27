@@ -9,4 +9,5 @@ You can view the final website on https://dulcet-kulfi-8b29ea.netlify.app/
 
 
 
+![Alt text](https://github.com/Jocelyn166/crwn-clothing/blob/master/Screen%20Shot%202024-02-27%20at%2014.43.32.png)
 https://github.com/Jocelyn166/crwn-clothing/blob/master/Screen%20Shot%202024-02-27%20at%2014.43.32.png
