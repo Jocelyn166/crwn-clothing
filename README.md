@@ -6,4 +6,7 @@ Beyond that, the application was also integrated with Firebase to handle the aut
 And once the user signed in, an sign out feature was also provided. Last but not least thing I want to mention is that all the products’ details are stored in the Firestore Database and pulled into the application when used.
 
 You can view the final website on https://dulcet-kulfi-8b29ea.netlify.app/
+
+
+
 https://github.com/Jocelyn166/crwn-clothing/blob/master/Screen%20Shot%202024-02-27%20at%2014.43.32.png
