@@ -9,7 +9,6 @@ In addition, the application integrates **Firebase** for authentication and stor
 
 Post-sign-in, a **sign-out feature** is conveniently available. Notably, all product details are diligently stored in the **Firestore Database** and fetched into the application as needed.
 
-Explore the final website at [https://dulcet-kulfi-8b29ea.netlify.app/](https://dulcet-kulfi-8b29ea.netlify.app/).
 
 ## Completed Application Screenshots
 
